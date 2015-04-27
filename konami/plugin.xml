@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.visual28.mango.plugins.konami" name="Konami Code" version="0.1" provider-name="visual28" class="konami.Handler">
+<description><![CDATA[ Adds <a href="http://en.wikipedia.org/wiki/Konami_Code">Konami Code</a> support to your blog. Includes easy setups for popular services like: rickroll, cornify, ninjafy, sharkify, and nippleit. Future updates scheduled to add more services and more options.<br/><br/>
+		Plugin By: <a href="http://www.visual28.com">Mark Aplet</a><br/>
+		Find the latest version at: <a href="http://www.visual28.com/page/projects">Visual28</a>
+ ]]></description>
+<requiresVersion match="greaterOrEqual">1.2.2</requiresVersion>
+  <listens>
+	<event name="beforeHtmlHeadEnd" type="synch" priority="5" />
+	<event name="settingsNav" type="synch" priority="5" />
+  	<event name="showKonamiSettings" type="synch" priority="5" />
+  </listens>
+</plugin>
